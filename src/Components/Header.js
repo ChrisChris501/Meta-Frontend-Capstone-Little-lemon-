@@ -11,22 +11,25 @@ const Header = () => {
         />
         <ul className="navMenu">
             <li className="home">
-                <a key="Home" href="/HomeSection">Home</a>
+                <a key="Home" href="/">Home</a>
             </li>
             <li className="about">
                 <a key="About" href="/about">About</a>
             </li>
             <li className="menu">
-                <a key="Menu" href="/HighlightSction">Menu</a>
+                <a key="HighlightSection" href="/HighlightSection">Menu</a>
+            </li>
+            <li className="Testimonials">
+                <a key="Testimonials" href="/TestimonialsSection">Testimonials</a>
             </li>
             <li className="reservation">
-                <a key="Reservation" href="/HeroSection">Reservations</a>
+                <a key="Reservation" href="/*">Reservations</a>
             </li>
             <li className="order">
                 <a key="Order" href="/MakeOrder">Order online</a>
             </li>
             <li className="login">
-                <a key="Login" href="/Login">Log in</a>
+                <a key="Login" href="/Login/*">Log in</a>
             </li>
         </ul>
     </nav>

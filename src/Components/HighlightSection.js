@@ -12,7 +12,7 @@ const HighlightSection = () => {
                     <img className="image"
                         height = {90}
                         width = {130}
-                        src={require("../assets/restauranfood.jpg")}
+                        src={require("../assets/lemon dessert.jpg")}
                         alt="Pictures of Mario and Adrian"
                         />
                     <div className="menuDetails">

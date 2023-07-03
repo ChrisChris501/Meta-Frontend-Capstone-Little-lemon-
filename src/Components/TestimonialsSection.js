@@ -3,7 +3,6 @@ import React from "react";
 const TestimonialsSection = () => {
     return (
         <div id="testimonialParentBox">
-            <h2> Read what our customers have to say about our food and services below.</h2>
             <div className="testimonials">
             <div className = "card">
                 <img height = {90}

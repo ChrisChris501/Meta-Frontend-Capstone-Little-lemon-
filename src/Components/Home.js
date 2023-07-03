@@ -1,6 +1,6 @@
 import React from "react";
 
-const HomeSection = () => {
+const Home = () => {
     return (
     <div id="homeSection">
         <div className="reserveTable">
@@ -10,6 +10,9 @@ const HomeSection = () => {
                 desire. Visit our restaurant and experience the beauty of our Ontario
                 foods, taste our exceptional delicacies, and witness firsthand our
                 dedication to preserving the environment for future generations.
+                Visit our restaurant and experience the beauty of our Ontario
+                foods, taste our exceptional delicacies, and witness firsthand our
+                dedication to preserving the environment for future generations.
             </p>
             <button>Reserve a table</button>
         </div>
@@ -17,7 +20,7 @@ const HomeSection = () => {
             <img className="image"
             height = {90}
             width = {140}
-            src={require("../assets/restaurant.jpg")}
+            src={require("../assets/restauranfood.jpg")}
             alt="Little Lemon Logo"
             />
         </div>
@@ -27,4 +30,4 @@ const HomeSection = () => {
 
 
 
-export default HomeSection;
+export default Home;
