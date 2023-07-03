@@ -2,7 +2,9 @@ import React from "react";
 
 const TestimonialsSection = () => {
     return (
-        <div className="testimonials">
+        <div id="testimonialParentBox">
+            <h2> Read what our customers have to say about our food and services below.</h2>
+            <div className="testimonials">
             <div className = "card">
                 <img height = {90}
                     width = {130}
@@ -42,6 +44,7 @@ const TestimonialsSection = () => {
 
                     </div>
             </div>
+        </div>
         </div>
     )
 };

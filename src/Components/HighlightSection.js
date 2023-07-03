@@ -26,7 +26,7 @@ const HighlightSection = () => {
                             Our fresh hanburger serves you healthy eating.
                             This burger is made for your lovely appetite.
                         </h6>
-                        <h5>Order a delivery</h5>
+                        <h4>Order a delivery</h4>
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ const HighlightSection = () => {
                         Fresh salad for your every healthy eating.
                         This salad is made for your lovely appetite.
                     </h6>
-                    <h5>Order a delivery</h5>
+                    <h4>Order a delivery</h4>
                 </div>
             </div>
             <div className="card3">
@@ -67,7 +67,7 @@ const HighlightSection = () => {
                         Lemon dessert for your every healthy eating.
                         This dessert is made for your lovely appetite.
                     </h6>
-                    <h5>Order a delivery</h5>
+                    <h4>Order a delivery</h4>
                 </div>
                 </div>
             </div>
