@@ -1,6 +1,9 @@
 import React from "react";
+import '../Styles/Home.css';
+import {NavLink} from 'react-router-dom';
 
 const Home = () => {
+    
     return (
     <div id="homeSection">
         <div className="reserveTable">
@@ -14,7 +17,7 @@ const Home = () => {
                 foods, taste our exceptional delicacies, and witness firsthand our
                 dedication to preserving the environment for future generations.
             </p>
-            <button>Reserve a table</button>
+           <NavLink to="/BookingPage"><button className="btn">Reserve a Table</button></NavLink>
         </div>
         <div>
             <img className="image"

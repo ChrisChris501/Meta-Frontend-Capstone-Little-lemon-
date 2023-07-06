@@ -1,0 +1,140 @@
+/** Highlight Section **/
+
+.highlightMenu {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 1fr;
+    margin-left: 10%;
+    margin-top: 25px;
+  }
+  
+  .highlightMenu h2 {
+    font-weight: 300;
+    font-size: 40px;
+    padding: 5px 5px 10px 5px;
+    margin: 10px 50px 5px 90px;
+  }
+  
+  @media (max-width: 900px) {
+    .highlightMenu h2 {
+      margin: 10px 5px 5px 30px;
+      font-size: 20px;
+      width: 25vh;
+  }
+  }
+  
+  .highlightMenu button{
+    width: 35%;
+    height: 60%;
+    padding: 5px 5px 5px 15px 0;
+    margin: 15px 40px 5px 300px;
+    background-color: rgb(244,206,21);
+    border: white 1px;
+    border-radius: 5px;
+    color: rgb(32, 27, 27);
+  }
+  
+  @media (max-width: 900px) {
+    .highlightMenu button{
+      width: 55%;
+      height: 60%;
+      padding: 7px 10px 15px 10px;
+      margin-left: 80px;
+  }
+  }
+
+  .highlightMenu button:hover {
+    background-color: #495e57;
+    color: #eeeeee;
+  }
+  
+  #Cards{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 1fr;
+    column-gap: 25px;
+    margin: 20px 0 25px 80px;
+    padding: 5px;
+    height: 75vh;
+  }
+  
+  @media (max-width: 700px) {
+    #Cards{
+      display: grid;
+      grid-template-columns: 80%;
+      grid-template-rows: 500px 500px 500px;
+      row-gap: 40px;
+      align-items: center;
+      padding: 5px 0;
+      margin: 25px 10px 25px 120px;
+      width: 70%;
+      height: 100%;
+    }
+  }
+  
+  #Cards .image{
+    height: 45%;
+    width: 90%;
+    margin: 0 10px 0 10px;
+  }
+  
+  #Cards .menuDetails{
+    background-color: rgb(186, 196, 191);
+    margin: 0 25px 0 10px;
+    height: 40vh;
+    width: 90%;
+  }
+  
+  @media (max-width: 900px) {
+    #Cards .menuDetails{
+      width: 90%;
+    }
+  }
+  
+  
+  #Cards .foodName {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 5px;
+  }
+  
+  .foodName h5{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin: 0 30px 5px 10px;
+  }
+  
+  .foodName p{
+    color: rgb(247, 132, 79);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 2px;
+    margin-left: 5px;
+  }
+  
+  .menuDetails h6 {
+    padding: 10px 15px 15px 15px;
+    width: 90%;
+    height: 27vh;
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 1.3em;
+    text-align: justify;
+  }
+  
+  @media (max-width: 900px) {
+    .menuDetails h6 {
+      width: 80%;
+      line-height: 1.1em;
+    }
+  }
+  
+  .menuDetails h4{
+    font-size: 12px;
+    margin-top: -25px;
+    margin-left: 15px;
+    color: black;
+    font-weight: bolder;
+  }
+  

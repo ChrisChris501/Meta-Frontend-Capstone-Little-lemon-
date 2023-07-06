@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import '../Styles/About.css'
 
 const About = () => {
     return (

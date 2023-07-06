@@ -1,4 +1,5 @@
 import React from "react";
+import '../Styles/Header.css';
 
 const Header = () => {
     return (
@@ -23,7 +24,7 @@ const Header = () => {
                 <a key="Testimonials" href="/TestimonialsSection">Testimonials</a>
             </li>
             <li className="reservation">
-                <a key="Reservation" href="/*">Reservations</a>
+                <a key="Reservation" href="/BookingPage">Reservations</a>
             </li>
             <li className="order">
                 <a key="Order" href="/MakeOrder">Order online</a>

@@ -1,4 +1,5 @@
 import React from "react";
+import '../Styles/TestimonialsSection.css'
 
 const TestimonialsSection = () => {
     return (

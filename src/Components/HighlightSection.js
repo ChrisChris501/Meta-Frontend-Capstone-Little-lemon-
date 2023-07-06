@@ -1,4 +1,5 @@
 import React from "react";
+import '../Styles/HighlightSection.css'
 
 const HighlightSection = () => {
     return (

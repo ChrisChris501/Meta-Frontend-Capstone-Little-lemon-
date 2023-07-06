@@ -1,0 +1,94 @@
+#formContainer img{
+    position: relative;
+    height: 125vh;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.form{
+    position: absolute;
+    display: grid;
+    width: 50%;
+    gap: 8px;
+    margin-top: -120vh;
+    margin-left: 27%;
+    border-radius: 10px;
+    background-color: #495e57;
+}
+
+@media (max-width: 900px) {
+.form{
+    position: absolute;
+    display: grid;
+    width: 60%;
+    gap: 3px;
+    margin-top: 12vh;
+    margin-left: 20%;
+    top: 45vh;
+}
+    }
+
+.form input, select, button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(243, 242, 240);
+    border-style: none;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-size: 18px;
+    margin: 2px 15px 15px 15px;
+    }
+
+button{
+    margin: 20px 15px 0 15px;
+}
+
+.form input:hover{
+    background-color: rgb(244,206,21);
+}
+.form select:hover{
+    background-color: rgb(244,206,21);
+}
+
+.reserve-btn:hover{
+    background-color: rgb(244,206,21);
+}
+
+
+.form label{
+    color: white;
+    font-weight: light;
+    font-size: 20px;
+    text-align: left;
+    margin: 15px 15px 0 15px;
+}
+
+.welcome{
+    margin: 20px 0 15px 0;
+    padding: 10px;
+    background-color: rgb(244,206,21);
+}
+
+.welcome h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 0 0 0 5px;
+}
+
+.welcome p{
+    padding: 15px 0 0 5px;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
