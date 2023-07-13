@@ -26,13 +26,12 @@ const Header = () => {
             <li className="reservation">
                 <a key="Reservation" href="/BookingPage">Reservations</a>
             </li>
-            <li className="order">
-                <a key="Order" href="/MakeOrder">Order online</a>
-            </li>
-            <li className="login">
-                <a key="Login" href="/Login/*">Log in</a>
-            </li>
         </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </nav>
     )
 }

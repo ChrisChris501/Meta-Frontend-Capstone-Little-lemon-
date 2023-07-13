@@ -3,7 +3,7 @@
 #theFooter {
     height: 12vh;
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 42% 55%;
     grid-template-rows: 1fr;
     margin-top: 15vh;
   }
@@ -11,12 +11,13 @@
   #theFooter li {
     display: inline-block;
     padding: 10px;
-    margin-left: 10vh;
+
   }
   
   @media (max-width: 900px) {
     #theFooter li {
-      margin-left: 30px;
+      display: block;
+      margin-left: 20px;
     }
   }
   

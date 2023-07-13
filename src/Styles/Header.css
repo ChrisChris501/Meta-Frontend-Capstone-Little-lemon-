@@ -2,7 +2,7 @@
 
 .navigation {
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 42% 55%;
     grid-template-rows: 1fr;
     padding: 5px;
     margin: 5px 2px -5px 5px;
@@ -38,6 +38,7 @@
   .navMenu li {
     display: inline-block;
     padding: 10px;
+    margin: 5px 25px 5px 10px;
   }
   
   @media (max-width: 900px) {
